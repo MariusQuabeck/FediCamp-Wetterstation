@@ -30,7 +30,7 @@ Die App empfängt Wetterdaten per HTTP POST, speichert sie im CSV-Format und bie
 
 ## 📡 Unterstützte Wetterstation
 
-Verwendet wird das Modell **Ecowitt GW1100 (Wi-Fi Wetter-Gateway)**.  
+Verwendet wird das Modell **Ecowitt GW1101 (Wi-Fi Wetter-Gateway)**.  
 Dieses Gateway empfängt Daten von kompatiblen Funksensoren (z. B. WH65, WH32, WH40) und sendet sie per HTTP POST weiter.
 
 Du kannst dieses Setup aber auch mit anderen Ecowitt-kompatiblen Gateways (z. B. GW2000, WH2650) nutzen – vorausgesetzt sie unterstützen das **"Customized Upload"** Feature.
@@ -44,7 +44,7 @@ Du kannst dieses Setup aber auch mit anderen Ecowitt-kompatiblen Gateways (z. 
 
 Die Wetterstation sendet Daten über das Ecowitt-Protokoll mit einem **Passkey**. Wenn dieser nicht im Webinterface sichtbar ist, kannst du ihn folgendermaßen auslesen:
 
-1. Öffne das Webinterface der GW1100.
+1. Öffne das Webinterface der GW1101.
 2. Gehe zu **Customized → Weather Services**.
 3. Stelle ein:
    - **Protocol**: Ecowitt  
@@ -70,12 +70,12 @@ Die Wetterstation sendet Daten über das Ecowitt-Protokoll mit einem **Passkey**
 
 ---
 
-## ⚙️ Einrichtung der Wetterstation (GW1100)
+## ⚙️ Einrichtung der Wetterstation (GW1101)
 
 ### Schritt 1: Webinterface öffnen
 
-1. Stelle sicher, dass dein Computer und das GW1100 im gleichen Netzwerk sind.
-2. Öffne das Webinterface des GW1100, z. B. via `http://gw1100.local/` oder IP-Adresse im Browser.
+1. Stelle sicher, dass dein Computer und das GW1101 im gleichen Netzwerk sind.
+2. Öffne das Webinterface des GW1101, z. B. via `http://GW1101.local/` oder IP-Adresse im Browser.
 
 ### Schritt 2: Customized Upload konfigurieren
 
