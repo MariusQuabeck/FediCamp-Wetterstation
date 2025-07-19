@@ -1,0 +1,41 @@
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Editor-/Systemdateien
+.DS_Store
+*.swp
+*.swo
+
+# Virtuelle Umgebungen
+env/
+venv/
+.wetter-venv/
+.wenv/
+.wenv*/
+
+# Logs & temporäre Daten
+*.log
+debug_post.log
+
+# Wetterdaten-CSV (lokal generiert)
+wetterdaten.csv
+
+# Passkey
+passkey.txt
+
+# Python-Umgebungskonfiguration
+*.env
+.env
+
+# VSCode & IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Sonstiges
+*.bak
+
