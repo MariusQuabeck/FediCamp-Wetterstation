@@ -2,7 +2,8 @@
 
 Ein einfaches, aber funktionsreiches Web-Frontend für Wetterstationen, optimiert für das FediCamp 2025.  
 Die App empfängt Wetterdaten per HTTP POST, speichert sie im CSV-Format und bietet verschiedene Webansichten – inklusive Live-Charts, Light/Dark-Modus und mobiler Optimierung.
-test github zu forgejo
+und noch ein test sync
+
 ---
 
 ## 🚀 Features
